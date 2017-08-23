@@ -1,5 +1,12 @@
 # Kasia Changelog
 
+- __v4.2.0__ - _???_
+
+  - Preserve return value of `connectWpQuery` query function ([#30](https://github.com/outlandishideas/kasia/issues/30))
+  - Support comma-separated dot-paths ([#38](https://github.com/outlandishideas/kasia/issues/38))
+  - Support generator query functions ([!59](https://github.com/outlandishideas/kasia/pull/59))
+  - 
+
 - __v4.0.0__
 
   - [BREAKING] WP API responses no longer modified by `wp-api-response-modify` by default. Functionality moved into [`kasia-plugin-wp-api-response-modify`](https://github.com/outlandishideas/kasia/tree/master/packages/kasia-plugin-wp-api-response-modify) plugin.
