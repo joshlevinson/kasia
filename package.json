@@ -13,7 +13,7 @@
     "example:simple": "node examples/server.js",
     "prepublish": "check-node-version --npm \">= 4.0.0\"",
     "prepublishOnly": "in-publish && npm run lint && npm run test && npm run build",
-    "prepare": "npm run prepublishOnly"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
